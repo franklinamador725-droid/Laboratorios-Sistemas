@@ -12,7 +12,7 @@ con **puerto personalizado** y **firewall activo**.
 2. [Comprobación inicial](#-2-comprobacion-inicial)
 3. [Actualización del sistema](#-3-actualizacion-del-sistema)
 4. [Configuración SSH](#-4-configuracion-ssh)
-5. [Solución al error de cambio de puerto](#-5-solucion-al-error-de-cambio-de-puerto)
+5. [Solución al error de cambio de puerto (systemd sockets)](#-5-solucion-al-error-de-cambio-de-puerto-systemd-sockets)
 6. [Configuración del Firewall (UFW)](#-6-configuracion-del-firewall-ufw)
 7. [Cerrar otros accesos](#-7-cerrar-otros-accesos)
 8. [Probar acceso SSH](#-8-probar-acceso-ssh)
