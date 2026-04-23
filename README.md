@@ -9,11 +9,11 @@ con **puerto personalizado** y **firewall activo**.
 ## 📋 Índice
 
 1. [Requisitos previos](#1-requisitos-previos)
-2. [Comprobación inicial](#2-comprobación-inicial)
-3. [Actualización del sistema](#3-actualización-del-sistema)
-4. [Configuración SSH](#4-configuración-ssh)
-5. [Solución al error de cambio de puerto](#5-solución-al-error-de-cambio-de-puerto)
-6. [Configuración del Firewall (UFW)](#6-configuración-del-firewall-ufw)
+2. [Comprobación inicial](#2-comprobacion-inicial)
+3. [Actualización del sistema](#3-actualizacion-del-sistema)
+4. [Configuración SSH](#4-configuracion-ssh)
+5. [Solución al error de cambio de puerto](#5-solucion-al-error-de-cambio-de-puerto)
+6. [Configuración del Firewall (UFW)](#6-configuracion-del-firewall-ufw)
 7. [Cerrar otros accesos](#7-cerrar-otros-accesos)
 8. [Probar acceso SSH](#8-probar-acceso-ssh)
 9. [Trabajos realizados](#9-trabajos-realizados)
@@ -41,7 +41,7 @@ ip a
 ping 8.8.8.8
 ```
 
-## 📦 3. Actualizacíon del sistema
+## 📦 3. Actualización del sistema
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -193,7 +193,7 @@ Default: deny (incoming), allow (outgoing), disabled (routed)
 Nota: “Se ha configurado UFW con una política por defecto de denegar todo el tráfico entrante y permitir el saliente,
 abriendo únicamente los puertos necesarios para SSH (2222) y servicios web (80 y 443).”
 
-Estado final de tu servidor
+### Estado final de tu servidor
 
 ✔ SSH securizado (puerto cambiado)
 ✔ Root deshabilitado
