@@ -10,10 +10,10 @@ con **puerto personalizado** y **firewall activo**.
 
 1. [Requisitos previos](#1-requisitos-previos)
 2. [Comprobación inicial](#2-comprobación-inicial)
-3. [Actualización del sistema](#3-actualizar-el-sistema-siempre)
-4. [Configuración SSH](#4-configurar-ssh)
-5. [Solución al error de cambio de puerto](#5-solución-al-error-de-cambio-de-puerto-systemd-sockets)
-6. [Configuración del Firewall (UFW)](#6-configurar-firewall-ufw)
+3. [Actualización del sistema](#3-actualización-del-sistema)
+4. [Configuración SSH](#4-configuración-ssh)
+5. [Solución al error de cambio de puerto](#5-solución-al-error-de-cambio-de-puerto)
+6. [Configuración del Firewall (UFW)](#6-configuración-del-firewall-ufw)
 7. [Cerrar otros accesos](#7-cerrar-otros-accesos)
 8. [Probar acceso SSH](#8-probar-acceso-ssh)
 9. [Trabajos realizados](#9-trabajos-realizados)
@@ -41,13 +41,13 @@ ip a
 ping 8.8.8.8
 ```
 
-## 📦 3. Actualizar el sistema
+## 📦 3. Actualizacíon del sistema
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-## 🔐 4. Configurar SSH
+## 🔐 4. Configuración SSH
 (Editar configuración)
 
 ```bash
@@ -143,7 +143,7 @@ sudo systemctl restart ssh.socket
 ss -tlnp
 ```
 
-## 🔥 6. Configurar Firewall (UFW)
+## 🔥 6. Configuración del Firewall (UFW)
 
 ### Permitir SSH en el puerto configurado (2222)
 ```bash
