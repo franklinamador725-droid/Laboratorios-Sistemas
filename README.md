@@ -114,7 +114,7 @@ Se puede comprobar que actualmente esta activo (running) con:
 sudo systemctl status ssh
 ```
 
-## ⚠️ 5. Solución al error de cambio de puerto (Systemd Sockets)
+## 5. Solucion al error de cambio de puerto (Systemd Sockets)
 
 ```bash
 sudo nano /lib/systemd/system/ssh.socket
