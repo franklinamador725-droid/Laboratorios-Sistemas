@@ -116,7 +116,7 @@ sudo smbpasswd -a usuario1
 sudo nano /etc/samba/smb.conf
 ```
 > 💡 **Tip de edición:** Una vez dentro de `nano`, desplázate hasta el final del archivo con `Alt + /` para pegar el nuevo bloque.
-![Configuración Samba](./imagenes/samba_config.png)
+![Configuración Samba](./imagenes/samba_conf.png)
 
 ```ini
 [Compartido]
