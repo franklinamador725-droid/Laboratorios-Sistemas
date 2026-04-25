@@ -118,6 +118,7 @@ sudo nano /etc/samba/smb.conf
 > 💡 **Tip de edición:** Una vez dentro de `nano`, desplázate hasta el final del archivo con `Alt + /` para pegar el nuevo bloque.
 ![Configuración Samba](./imagenes/samba_conf.png)
 
+**Agregamos este bloque al final del todo**
 ```ini
 [Compartido]
    path = /srv/samba/compartido
@@ -129,7 +130,6 @@ sudo nano /etc/samba/smb.conf
    create mask = 0660
 ```
 
-**Agregamos este bloque al final del todo**
 ![Configuración Samba](./imagenes/samba_configurado.png)
 
 **Guardamos y aplicamos cambios**
