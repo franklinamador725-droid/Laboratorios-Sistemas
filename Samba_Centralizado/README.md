@@ -6,7 +6,7 @@
 - [🎯 Objetivos Técnicos](#-objetivos-técnicos)
 - [🧱 Stack Tecnológico](#-stack-tecnológico)
 - [🌐 Arquitectura del Sistema](#-arquitectura-del-sistema)
-- [⚙️ Fase 1: Preparación e Instalación](#%23%EF%B8%8F-fase-1-preparaci%C3%B3n-e-instalaci%C3%B3n)
+- [⚙️ Fase 1: Preparación e Instalación](#%EF%B8%8F-fase-1-preparación-e-instalación)
 - [🛠️ Fase 2: Almacenamiento y Usuarios](#%23%EF%B8%8F-fase-2-almacenamiento-y-usuarios)
 - [📄 Fase 3: Configuración del Servicio (smb.conf)](#-fase-3-configuración-del-servicio-smbconf)
 - [✅ Fase 4: Validación](#-fase-4-validación)
