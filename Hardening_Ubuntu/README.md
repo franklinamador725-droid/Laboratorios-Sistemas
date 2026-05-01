@@ -195,10 +195,10 @@ abriendo únicamente los puertos necesarios para SSH (2222) y servicios web (80 
 
 ### Estado final de tu servidor
 
-✔ SSH securizado (puerto cambiado)
-✔ Root deshabilitado
-✔ Firewall activo
-✔ Solo servicios necesarios expuestos
+- ✔ SSH securizado (puerto cambiado)
+- ✔ Root deshabilitado
+- ✔ Firewall activo
+- ✔ Solo servicios necesarios expuestos
 
 ### Ver estado del Firewall
 ```bash
@@ -240,12 +240,12 @@ y la dirección ip del servidor (la linea de comando antes descrita)
 Probamos acceso desde mi ordenador físico al virtual
 
 ## 🧠 9. Trabajos realizados
-```
-✔ Servidor sin entorno gráfico
-✔ SSH activo
-✔ Puerto cambiado (22 → 2222)
-✔ Root deshabilitado
-✔ Firewall (UFW) activo
-✔ Solo puertos necesarios abiertos
-✔ Acceso remoto probado
-```
+
+- ✔ Servidor sin entorno gráfico
+- ✔ SSH activo
+- ✔ Puerto cambiado (22 → 2222)
+- ✔ Root deshabilitado
+- ✔ Firewall (UFW) activo
+- ✔ Solo puertos necesarios abiertos
+- ✔ Acceso remoto probado
+
