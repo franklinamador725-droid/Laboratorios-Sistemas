@@ -12,7 +12,7 @@ con **puerto personalizado** y **firewall activo**.
 2. [Comprobación inicial](#-2-comprobación-inicial)
 3. [Actualización del sistema](#-3-actualización-del-sistema)
 4. [Configuración SSH](#-4-configuración-ssh)
-5. [Solución al error de cambio de puerto (Systemd Sockets)](#%EF%B8%8F-5-solucion-al-error-de-cambio-de-puerto-systemd-sockets)
+5. [Solución al error de cambio de puerto (Systemd Sockets](#-5-Solucion-al-error-de-cambio-de-puerto-Systemd-Sockets)
 6. [Configuración del Firewall (UFW)](#-6-configuración-del-firewall-ufw)
 7. [Cerrar otros accesos](#-7-cerrar-otros-accesos)
 8. [Probar acceso SSH](#-8-probar-acceso-ssh)
@@ -114,7 +114,7 @@ Se puede comprobar que actualmente esta activo (running) con:
 sudo systemctl status ssh
 ```
 
-## ⚠️ 5. Solución al error de cambio de puerto (Systemd Sockets)
+## 5. Solucion al error de cambio de puerto (Systemd Sockets)
 
 ```bash
 sudo nano /lib/systemd/system/ssh.socket
