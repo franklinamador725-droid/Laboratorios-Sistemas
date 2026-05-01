@@ -240,7 +240,7 @@ y la dirección ip del servidor (la linea de comando antes descrita)
 Probamos acceso desde mi ordenador físico al virtual
 
 ## 🧠 9. Trabajos realizados
-
+```
 ✔ Servidor sin entorno gráfico
 ✔ SSH activo
 ✔ Puerto cambiado (22 → 2222)
@@ -248,3 +248,4 @@ Probamos acceso desde mi ordenador físico al virtual
 ✔ Firewall (UFW) activo
 ✔ Solo puertos necesarios abiertos
 ✔ Acceso remoto probado
+```
