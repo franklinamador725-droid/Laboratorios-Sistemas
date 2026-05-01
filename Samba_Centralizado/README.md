@@ -44,7 +44,7 @@ Este proyecto consiste en la implementación de un servidor de archivos centrali
 ---
 
 ## 🌐 Arquitectura del Sistema
-
+```
 [ Cliente Windows ]
 │
 │ SMB (TCP 139, 445)
@@ -54,10 +54,10 @@ Este proyecto consiste en la implementación de un servidor de archivos centrali
 ├── Firewall (UFW)
 ├── Permisos SGID
 └── /srv/samba/compartido
-
+```
 ---
 
-## ⚙️ Fase 1: Preparación e Instalación
+## Fase 1: Preparación e Instalación
 
 ### 1.1 Comprobaciones
 
@@ -83,7 +83,7 @@ sudo apt install samba -y
 smbd --version
 ```
 
-## 🛠️ Fase 2: Almacenamiento y Usuarios
+## Fase 2: Almacenamiento y Usuarios
 
 ### 2.1 Directorios
 
@@ -173,6 +173,8 @@ sudo ufw status
 
 **Abrimos el explorador de Windows**
 Escribe la ruta: `\\IP_DEL_SERVIDOR\Compartido` en el explorador
+
+![Configuración Samba](./imagenes/comprobaciones_desde_windows.png)
 
 ## 🧪 Resolución de Problemas
 
