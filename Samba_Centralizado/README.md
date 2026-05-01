@@ -14,7 +14,7 @@
 - [🔬 Fase 6: Comprobaciones desde Windows](#-fase-6-comprobaciones-desde-windows)
 - [🧪 Resolución de Problemas](#-resolución-de-problemas)
 - [📌 Conclusión](#-conclusión)
-%23%EF%B8%8F-fase-1-preparaci%C3%B3n-e-instalaci%C3%B3n
+
 ---
 
 ## 📌 Descripción del Proyecto
