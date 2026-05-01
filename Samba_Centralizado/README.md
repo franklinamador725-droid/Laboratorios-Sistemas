@@ -6,15 +6,15 @@
 - [🎯 Objetivos Técnicos](#-objetivos-técnicos)
 - [🧱 Stack Tecnológico](#-stack-tecnológico)
 - [🌐 Arquitectura del Sistema](#-arquitectura-del-sistema)
-- [⚙️ Fase 1: Preparación e Instalación](#-fase-1-preparación-e-instalación)
-- [🛠️ Fase 2: Almacenamiento y Usuarios](#-fase-2-almacenamiento-y-usuarios)
+- [⚙️ Fase 1: Preparación e Instalación](#%23%EF%B8%8F-fase-1-preparaci%C3%B3n-e-instalaci%C3%B3n)
+- [🛠️ Fase 2: Almacenamiento y Usuarios](#%23%EF%B8%8F-fase-2-almacenamiento-y-usuarios)
 - [📄 Fase 3: Configuración del Servicio (smb.conf)](#-fase-3-configuración-del-servicio-smbconf)
 - [✅ Fase 4: Validación](#-fase-4-validación)
 - [🛡️ Fase 5: Seguridad y Acceso (Firewall)](#️-fase-5-seguridad-y-acceso-firewall)
 - [🔬 Fase 6: Comprobaciones desde Windows](#-fase-6-comprobaciones-desde-windows)
 - [🧪 Resolución de Problemas](#-resolución-de-problemas)
 - [📌 Conclusión](#-conclusión)
-
+%23%EF%B8%8F-fase-1-preparaci%C3%B3n-e-instalaci%C3%B3n
 ---
 
 ## 📌 Descripción del Proyecto
@@ -57,7 +57,7 @@ Este proyecto consiste en la implementación de un servidor de archivos centrali
 ```
 ---
 
-## Fase 1: Preparación e Instalación
+## ⚙️ Fase 1: Preparación e Instalación
 
 ### 1.1 Comprobaciones
 
@@ -83,7 +83,7 @@ sudo apt install samba -y
 smbd --version
 ```
 
-## Fase 2: Almacenamiento y Usuarios
+## 🛠️ Fase 2: Almacenamiento y Usuarios
 
 ### 2.1 Directorios
 
