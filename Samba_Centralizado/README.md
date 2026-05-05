@@ -172,7 +172,7 @@ sudo ufw status
 ## 🔬 Fase 6: Comprobaciones desde Windows
 
 **Abrimos el explorador de Windows**
-Escribe la ruta: `\\IP_DEL_SERVIDOR\Compartido` en el explorador
+Escribe la ruta: ```\\IP_DEL_SERVIDOR\Compartido``` en el explorador
 
 ![Configuración Samba](./imagenes/comprobaciones_desde_windows.png)
 
