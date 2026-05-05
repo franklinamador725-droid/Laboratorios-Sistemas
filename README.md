@@ -14,6 +14,8 @@ Aquí documento implementaciones reales relacionadas con administración de sist
 * 🖥️ **[Servidor de Archivos Samba](./Samba_Centralizado)**
   Implementación de servidor de archivos interoperable Linux/Windows con control de acceso por grupos, permisos SGID y seguridad básica.
 
+* 🐍 **Proyectos de Python (en progreso)**  
+  Scripts y automatizaciones orientadas a administración de sistemas y tareas DevOps.
 ---
 
 ## 🛠️ Tecnologías
