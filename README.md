@@ -1,4 +1,4 @@
-# 🖥️ Laboratorios de Sistemas, Cloud y DevOps
+# 🖥️ Laboratorio Administración de Sistemas Informáticos en Red (Asir)
 
 Repositorio de prácticas y proyectos técnicos realizados durante mi formación en **Administración de Sistemas Informáticos en Red (ASIR)** y mi preparación para certificaciones de **Microsoft Azure**.
 
