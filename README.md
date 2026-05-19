@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/VirtualBox-Labs-orange?style=for-the-badge&logo=virtualbox">
 </p>
 
-# 🖥️ Laboratorios Administración de Sistemas Informáticos en Red (ASIR)
+# 🖥️ Laboratorio Administración de Sistemas Informáticos en Red (ASIR)
 
 Repositorio de prácticas y proyectos técnicos realizados durante mi formación en **Administración de Sistemas Informáticos en Red (ASIR)** y mi preparación para certificaciones de **Microsoft Azure**.
 
