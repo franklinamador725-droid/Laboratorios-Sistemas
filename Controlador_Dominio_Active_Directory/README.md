@@ -751,7 +751,7 @@ Respuesta desde 192.168.1.10
 | Resolución de nombres         | ✅ Correcta  |
 | Comunicación Cliente-Servidor | ✅ Exitosa   |
 
-# 15. 🚀 Conclusiones
+# 15.🚀 Conclusiones
 
 Durante este laboratorio se logró implementar correctamente un entorno básico de Active Directory utilizando Windows Server y VirtualBox.
 
