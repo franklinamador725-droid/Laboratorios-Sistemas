@@ -44,9 +44,8 @@ El objetivo principal es configurar un **Controlador de Dominio (Domain Controll
 - [🏢 11. Unión del Cliente al Dominio](#-11-unión-del-cliente-al-dominio)
 - [👤 12. Inicio de Sesión con Usuario AD](#-12-inicio-de-sesión-con-usuario-ad)
 - [🧪 13. Comandos Utilizados](#-13-comandos-importantes-utilizados)
-- [🔍 14. Validaciones del Dominio](#-14-Validaciones de Domino)
+- [🔍 14. Validaciones del Dominio](#-14-validaciones-del-dominio)
 - [🚀 15. Conclusiones](#-15-conclusiones)
-
 ---
 
 # 🧩 1. Máquinas Virtuales
@@ -781,11 +780,11 @@ Se configuró un controlador de dominio funcional, se gestionaron usuarios y uni
 ### GitHub
 
 ```text
-https://github.com/tu-usuario
+https://github.com/franklinamador725-droid
 ```
 
 ### LinkedIn
 
 ```text
-https://linkedin.com/in/tu-perfil
+https://www.linkedin.com/in/gabriel-orozco-300879235
 ```
