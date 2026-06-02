@@ -52,6 +52,19 @@ Implementación de servidor de archivos interoperable Linux/Windows con:
 
 ---
 
+## 🌐 [Servidor Nginx con Virtual Host y HTTPS](./Servidor_Nginx_HTTPS)
+
+Despliegue de un servidor web Nginx sobre Ubuntu Server con:
+
+- Virtual Host personalizado
+- HTTPS mediante certificado SSL autofirmado
+- Redirección HTTP → HTTPS
+- Configuración de Firewall UFW
+- Monitorización mediante logs
+- Resolución DNS local mediante archivo hosts
+
+---
+
 ## 🐍 Proyectos de Python *(en progreso)*
 
 Scripts y automatizaciones orientadas a:
