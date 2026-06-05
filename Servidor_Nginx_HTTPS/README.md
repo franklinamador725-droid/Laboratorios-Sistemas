@@ -5,42 +5,40 @@
 ---
 
 ### 📂 Información General
-* [[#Descripción 📖|01. Descripción del Proyecto]]
-* [[#Objetivos 🎯|02. Objetivos Principales]]
-* [[#Entorno de trabajo 🖥️|03. Entorno de Trabajo (Servidor / Cliente)]]
-* [[#Arquitectura del proyecto 🏗️|04. Arquitectura y Flujo de Red]]
-
-### 🛠️ Despliegue y Configuración Paso a Paso
-* **Fase 1: Preparación del Sistema**
-	* [[#1. Actualización del sistema 🔄|1. Actualización del sistema]]
-	* [[#2. Instalación de Nginx 📦|2. Instalación de Nginx]]
-	* [[#3. Verificación del servicio ⚙️|3. Verificación del servicio]]
-	* [[#4. Comprobar la configuración 🔍|4. Comprobar la configuración de sintaxis]]
-	* [[#5. Identificar la IP del servidor 🌐|5. Identificación de la IP del servidor]]
-* **Fase 2: Estructura Web y Servidor Virtual**
-	* [[#6. Creación de la estructura web 📁|6. Creación del directorio raíz]]
-	* [[#7. Crear la página web 🌍|7. Creación del archivo index.html]]
-	* [[#8. Configuración del Virtual Host 🏠|8. Configuración del bloque de servidor Nginx]]
-	* [[#9. Activar el sitio 🔗|9. Activación del sitio (Enlace simbólico)]]
-* **Fase 3: Seguridad y Firewall**
-	* [[#10. Configuración SSL 🔒|10. Generación del certificado SSL autofirmado]]
-	* [[#11. Reiniciar Nginx 🔄|11. Aplicación de cambios en Nginx]]
-	* [[#12. Comprobar HTTPS localmente ✅|12. Verificación local de HTTPS (curl)]]
-	* [[#13. Comprobar puerto HTTPS 🌐|13. Comprobar sockets de escucha del puerto 443]]
-	* [[#14. Configuración del Firewall 🛡️|14. Apertura de reglas en el Firewall UFW]]
-* **Fase 4: Integración con el Cliente y Pruebas**
-	* [[#15. Configuración del cliente Windows 💻|15. Configuración del archivo hosts de Windows]]
-	* [[#16. Pruebas de conectividad 📡|16. Auditoría y pruebas de conectividad final]]
-	* [[#17. Advertencia SSL esperada ⚠️|17. Análisis de la advertencia SSL del navegador]]
-	* [[#18. Monitorización y logs 📊|18. Gestión y lectura de logs (Access & Error)]]
-
-### 🏁 Cierre del Proyecto
-* [[#Estructura final 📂|05. Árbol de la Estructura Final de Archivos]]
-* [[#Mejoras futuras 🚀|06. Líneas de Mejoras Futuras]]
-* [[#Conclusiones 📝|07. Conclusiones Finales]]
+* [01. Descripción del Proyecto](#01-descripción-del-proyecto) 
+* [02. Objetivos Principales](#02-objetivos-principales) 
+* [03. Entorno de Trabajo (Servidor / Cliente)](#03-entorno-de-trabajo-servidor--cliente) 
+* [04. Arquitectura y Flujo de Red](#04-arquitectura-y-flujo-de-red) 
+* ### 🛠️ Despliegue y Configuración Paso a Paso 
+* #### **Fase 1: Preparación del Sistema** 
+* [1. Actualización del sistema](#1-actualización-del-sistema) 
+* [2. Instalación de Nginx](#2-instalación-de-nginx) 
+* [3. Verificación del servicio](#3-verificación-del-servicio) 
+* [4. Comprobar la configuración de sintaxis](#4-comprobar-la-configuración-de-sintaxis) 
+* [5. Identificación de la IP del servidor](#5-identificación-de-la-ip-del-servidor) 
+* #### **Fase 2: Estructura Web y Servidor Virtual** 
+* [6. Creación de la estructura web](#6-creación-de-la-estructura-web) 
+* [7. Crear la página web](#7-crear-la-página-web) 
+* [8. Configuración del Virtual Host](#8-configuración-del-virtual-host) 
+* [9. Activar el sitio](#9-activar-el-sitio) 
+* #### **Fase 3: Seguridad y Firewall** 
+* [10. Configuración SSL](#10-configuración-ssl) 
+* [11. Reiniciar Nginx](#11-reiniciar-nginx) 
+* [12. Comprobar HTTPS localmente](#12-comprobar-https-localmente) 
+* [13. Comprobar puerto HTTPS](#13-comprobar-puerto-https) 
+* [14. Configuración del Firewall](#14-configuración-del-firewall) 
+* #### **Fase 4: Integración con el Cliente y Pruebas** 
+* [15. Configuración del cliente Windows](#15-configuración-del-cliente-windows) 
+* [16. Pruebas de conectividad](#16-pruebas-de-conectividad) 
+* [17. Advertencia SSL esperada](#17-advertencia-ssl-esperada) 
+* [18. Monitorización y logs](#18-monitorización-y-logs) 
+* ### 🏁 Cierre del Proyecto 
+* [05. Estructura final](#05-estructura-final) 
+* [06. Mejoras futuras](#06-mejoras-futuras) 
+* [07. Conclusiones](#07-conclusiones)
 
 ---
-## Descripción 📖
+## Descripción del Proyecto. 📖
 
 En este proyecto se despliega un servidor web Nginx sobre Ubuntu Server, configurando un Virtual Host accesible mediante un dominio local personalizado. Además, se implementa HTTPS utilizando un certificado SSL autofirmado y se configura la resolución de nombres desde un equipo Windows mediante el archivo `hosts`.
 
@@ -67,7 +65,7 @@ En este proyecto se despliega un servidor web Nginx sobre Ubuntu Server, configu
 
 ---
 
-## Entorno de trabajo 🖥️
+## Entorno de trabajo (Servidor / Cliente). 🖥️
 
 ### Servidor
 
@@ -180,7 +178,7 @@ sudo systemctl reload nginx
 
 ---
 
-## 4. Comprobar la configuración 🔍
+## 4. Comprobar la configuración de sintaxis. 🔍
 
 Verificar posibles errores de sintaxis.
 

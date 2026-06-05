@@ -1,4 +1,4 @@
-<<p align="center">
+<p align="center">
   <img src="https://img.shields.io/badge/Windows_Server-2025-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?style=for-the-badge&logo=ubuntu">
   <img src="https://img.shields.io/badge/PowerShell-Automation-blue?style=for-the-badge&logo=powershell">
@@ -52,7 +52,7 @@ Implementación de servidor de archivos interoperable Linux/Windows con:
 
 ---
 
-## 🌐 [Servidor Nginx con Virtual Host y HTTPS](./Servidor_Nginx_HTTPS)
+## 🌐 [Servidor_Nginx_HTTPS](./Servidor_Nginx_HTTPS)
 
 Despliegue de un servidor web Nginx sobre Ubuntu Server con:
 
