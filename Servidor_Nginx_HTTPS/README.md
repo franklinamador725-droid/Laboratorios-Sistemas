@@ -5,39 +5,46 @@
 ---
 
 ### 📂 Información General
-* [01. Descripción del Proyecto](#01-descripción-del-proyecto) 
-* [02. Objetivos Principales](#02-objetivos-principales) 
-* [03. Entorno de Trabajo (Servidor / Cliente)](#03-entorno-de-trabajo-servidor--cliente) 
-* [04. Arquitectura y Flujo de Red](#04-arquitectura-y-flujo-de-red) 
-* ### 🛠️ Despliegue y Configuración Paso a Paso 
-* #### **Fase 1: Preparación del Sistema** 
-* [1. Actualización del sistema](#1-actualización-del-sistema) 
-* [2. Instalación de Nginx](#2-instalación-de-nginx) 
-* [3. Verificación del servicio](#3-verificación-del-servicio) 
-* [4. Comprobar la configuración de sintaxis](#4-comprobar-la-configuración-de-sintaxis) 
-* [5. Identificación de la IP del servidor](#5-identificación-de-la-ip-del-servidor) 
-* #### **Fase 2: Estructura Web y Servidor Virtual** 
-* [6. Creación de la estructura web](#6-creación-de-la-estructura-web) 
-* [7. Crear la página web](#7-crear-la-página-web) 
-* [8. Configuración del Virtual Host](#8-configuración-del-virtual-host) 
-* [9. Activar el sitio](#9-activar-el-sitio) 
-* #### **Fase 3: Seguridad y Firewall** 
-* [10. Configuración SSL](#10-configuración-ssl) 
-* [11. Reiniciar Nginx](#11-reiniciar-nginx) 
-* [12. Comprobar HTTPS localmente](#12-comprobar-https-localmente) 
-* [13. Comprobar puerto HTTPS](#13-comprobar-puerto-https) 
-* [14. Configuración del Firewall](#14-configuración-del-firewall) 
-* #### **Fase 4: Integración con el Cliente y Pruebas** 
-* [15. Configuración del cliente Windows](#15-configuración-del-cliente-windows) 
-* [16. Pruebas de conectividad](#16-pruebas-de-conectividad) 
-* [17. Advertencia SSL esperada](#17-advertencia-ssl-esperada) 
-* [18. Monitorización y logs](#18-monitorización-y-logs) 
-* ### 🏁 Cierre del Proyecto 
-* [05. Estructura final](#05-estructura-final) 
-* [06. Mejoras futuras](#06-mejoras-futuras) 
-* [07. Conclusiones](#07-conclusiones)
+* [01. Descripción del Proyecto](#descripci%C3%B3n-del-proyecto-) 
+* [02. Objetivos Principales](#objetivos-) 
+* [03. Entorno de Trabajo (Servidor / Cliente)](#entorno-de-trabajo-servidor--cliente-%EF%B8%8F) 
+* [04. Arquitectura y Flujo de Red](#arquitectura-del-proyecto-%EF%B8%8F) 
 
+### 🛠️ Despliegue y Configuración Paso a Paso 
+
+#### **Fase 1: Preparación del Sistema** 
+* [1. Actualización del sistema](#1-actualización-del-sistema-)
+* [2. Instalación de Nginx](#2-instalación-de-nginx-)
+* [3. Verificación del servicio](#3-verificación-del-servicio-%EF%B8%8F)
+* [4. Comprobar la configuración de sintaxis](#4-comprobar-la-configuración-de-sintaxis-)
+* [5. Identificación de la IP del servidor](#5-identificar-la-ip-del-servidor-)
+
+#### **Fase 2: Estructura Web y Servidor Virtual** 
+* [6. Creación de la estructura web](#6-creación-de-la-estructura-web-)
+* [7. Crear la página web](#7-crear-la-página-web-)
+* [8. Configuración del Virtual Host](#8-configuración-del-virtual-host-)
+* [9. Activar el sitio](#9-activar-el-sitio-)
+
+#### **Fase 3: Seguridad y Firewall** 
+* [10. Configuración SSL](#10-configuración-ssl-)
+* [11. Reiniciar Nginx](#11-reiniciar-nginx-)
+* [12. Comprobar HTTPS localmente](#12-comprobar-https-localmente-)
+* [13. Comprobar puerto HTTPS](#13-comprobar-puerto-https-)
+* [14. Configuración del Firewall](#14-configuración-del-firewall-%EF%B8%8F)
+
+#### **Fase 4: Integración con el Cliente y Pruebas** 
+* [15. Configuración del cliente Windows](#15-configuración-del-cliente-windows-)
+* [16. Pruebas de conectividad](#16-pruebas-de-conectividad-)
+* [17. Advertencia SSL esperada](#17-advertencia-ssl-esperada-%EF%B8%8F)
+* [18. Monitorización y logs](#18-monitorización-y-logs-)
+
+### 🏁 Cierre del Proyecto 
+* [05. Estructura final](#estructura-final-)
+* [06. Mejoras futuras](#mejoras-futuras-)
+* [07. Conclusiones](#conclusiones-)
+  
 ---
+
 ## Descripción del Proyecto. 📖
 
 En este proyecto se despliega un servidor web Nginx sobre Ubuntu Server, configurando un Virtual Host accesible mediante un dominio local personalizado. Además, se implementa HTTPS utilizando un certificado SSL autofirmado y se configura la resolución de nombres desde un equipo Windows mediante el archivo `hosts`.
