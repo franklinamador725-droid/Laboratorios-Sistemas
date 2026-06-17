@@ -15,7 +15,7 @@
 * [Captura de Tráfico TCP](#Captura-de-Tráfico-TCP)
 * [Three-Way Handshake TCP](#Three-Way-Handshake-TCP)
 * [Análisis HTTP](#Análisis-HTTP)
-* [Funcionamiento de la Pila TCP/IP](#Funcionamiento-e-la-pila-TCP-IP)
+* [Funcionamiento de la Pila TCP/IP](#funcionamiento-de-la-pila-tcpip)
 * [Evidencias](#Evidencias)
 * [Conclusiones](#Conclusiones)
 
