@@ -65,6 +65,23 @@ Despliegue de un servidor web Nginx sobre Ubuntu Server con:
 
 ---
 
+## 📡 [Análisis de Red con Wireshark](./Análisis_Red_Wireshark)
+
+Captura y análisis de tráfico de red entre un cliente Windows 11 y un servidor Ubuntu utilizando Wireshark.
+
+### Tecnologías utilizadas
+
+- Wireshark
+- TCP/IP
+- ICMP
+- ARP
+- HTTP
+- Windows 11
+- Ubuntu Server
+- VirtualBox
+
+---
+
 ## 🐍 Proyectos de Python *(en progreso)*
 
 Scripts y automatizaciones orientadas a:
